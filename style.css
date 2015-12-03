@@ -27,8 +27,11 @@ h1 {
 font: 40px;
   animation-duration: 3s;
   animation-name: slidein;
+<<<<<<< HEAD
  
   
+=======
+>>>>>>> master
   
 }
 
@@ -241,4 +244,8 @@ margin:10px 5px;
  float: left;
  margin-left: 205px;
  padding-right:25%;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> master
