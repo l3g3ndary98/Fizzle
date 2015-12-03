@@ -1,0 +1,244 @@
+html {
+    background: #00ffff;
+}
+body {
+    margin: 0;
+    
+}
+
+nav {
+    background: #66ff33;
+    height: 10em;
+    overflow:hidden;
+
+   
+}
+
+.logo{
+
+width:150px;
+height:125px;
+position: absolute;
+left:1em;
+top:.5em;
+}
+
+h1 {
+font: 40px;
+  animation-duration: 3s;
+  animation-name: slidein;
+ 
+  
+  
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 100%; 
+ 
+  }
+
+  to {
+    margin-left: 12%;
+    width: 100%;
+
+  }
+}
+
+ul, li, h1 {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    float: left;
+    
+    
+  
+   
+}
+
+h1{
+margin-left:12%;
+font-size:40px;
+}
+
+
+ul, h1 {
+    background: #66ff33;
+    height: 1.5em;
+    width: 100%;
+   
+
+}
+li {
+    float:right;
+    margin-right:3%;
+   font-size:25px;
+  
+}
+li a, h1 {
+    display: block;
+    line-height: 2em;
+    padding: 0 1em;
+    color: #00ccff;
+    text-decoration: none;
+
+}
+li a:hover {
+    background: #00ff99;
+    position: relative;
+    border-radius: .3em .3em 0 0;
+    
+}
+
+
+
+/* changing words css*/
+.rw-wrapper{
+	width: 40%;
+	position: relative;
+	margin-left:2%;
+	font-family: 'Bree Serif';
+	
+}
+
+.rw-sentence{
+	margin: 0;
+	text-align: left;
+	text-shadow: 1px 1px 1px rgba(255,255,255,0.8);
+}
+
+.rw-sentence span{
+	color: #444;
+	white-space: nowrap;
+	font-size: 100%;
+	font-weight: normal;
+}
+
+.rw-words{
+	display: inline;
+	
+}
+
+.rw-words span{
+	position: absolute;
+	opacity: 0;
+	overflow: hidden;
+	width: 1%;
+	color: yellow;
+}
+
+
+.rw-words-2 span{
+	animation: rotateWordsSecond 18s linear infinite 0s;
+}
+.rw-words span:nth-child(2) { 
+	animation-delay: 3s; 
+	color: red;
+
+}
+.rw-words span:nth-child(3) { 
+	animation-delay: 6s; 
+	color: blue;	
+}
+.rw-words span:nth-child(4) { 
+	animation-delay: 9s; 
+	color: green;
+}
+.rw-words span:nth-child(5) { 
+	animation-delay: 12s; 
+	color: gold;
+}
+.rw-words span:nth-child(6) {  
+	animation-delay: 15s; 
+	color: orange;
+}
+
+
+
+@keyframes rotateWordsSecond {
+    0% { opacity: 1; animation-timing-function: ease-in; width: 0px; }
+    10% { opacity: 0.3; width: 0px; }
+	20% { opacity: 1; width: 100%; }
+    27% { opacity: 0; width: 100%; }
+    100% { opacity: 0; }
+}
+
+.main h2, .more h2{
+Color:#009999;
+Font-size:30px;
+margin-left:205px;
+margin-bottom:0
+}
+
+.main p{
+ width: 55%;
+ float: left;
+ margin-left: 205px;
+
+}
+
+.more{
+ width: 65%;
+ float: left;
+ margin-left: 15px;
+ margin-bottom:25px;
+}
+
+.more p{
+ width: 65%;
+ float: left;
+ margin-left: 185px;
+ 
+}
+
+.tb{
+ width: 20%;
+
+ float: left;
+ margin-left: 185px;
+ background:green;
+ padding:5px;
+}
+
+.tbb{
+ width: 20%;
+ height:20%;
+ float: left;
+ margin-left: 185px;
+ background:red;
+ padding:5px;
+}
+
+img{
+Width:150px;
+height:150px;
+padding:5px;
+float:left; 
+}
+
+.ball{
+ position:absolute; top: 245px; left: 25px; z-index: 1;
+}
+
+.jobs{
+position:absolute; top: 435px; left: 25px; z-index: 3;
+}
+
+
+.foot{
+Width:100%;
+height:5em;
+float:left; 
+margin-top:50%;
+background: #66ff33;
+color:#00ccff;
+
+}
+
+.video{
+margin:10px 5px;
+ float: left;
+ margin-left: 205px;
+ padding-right:25%;
+}
