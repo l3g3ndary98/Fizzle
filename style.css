@@ -14,56 +14,25 @@ nav {
    
 }
 
-img {
-Width:150px;
-height:150px;
-padding:5px;
-float:left; 
+.logo{
+
+width:150px;
+height:125px;
+position: absolute;
+left:1em;
+top:.5em;
 }
 
 h1 {
 font: 40px;
-margin-left:12%;
-font-size:40px;
   animation-duration: 3s;
   animation-name: slidein;
+<<<<<<< HEAD
+ 
   
-}
-li {
-    float:right;
-    margin-right:3%;
-   font-size:25px;
-}
-
-li a:hover {
-    background: #00ff99;
-    position: relative;
-    border-radius: .3em .3em 0 0;
-    
-}
-
-ul, h1 {
-    background: #66ff33;
-    height: 1.5em;
-    width: 100%;
-   
-
-}
-
-ul, li, h1 {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    float: left;
-} 
-
-li a, h1 {
-    display: block;
-    line-height: 2em;
-    padding: 0 1em;
-    color: #00ccff;
-    text-decoration: none;
-
+=======
+>>>>>>> master
+  
 }
 
 @keyframes slidein {
@@ -78,16 +47,54 @@ li a, h1 {
     width: 100%;
 
   }
-
-  
-.logo {
-
-width:150px;
-height:125px;
-position: absolute;
-left:1em;
-top:.5em;
 }
+
+ul, li, h1 {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    float: left;
+    
+    
+  
+   
+}
+
+h1{
+margin-left:12%;
+font-size:40px;
+}
+
+
+ul, h1 {
+    background: #66ff33;
+    height: 1.5em;
+    width: 100%;
+   
+
+}
+li {
+    float:right;
+    margin-right:3%;
+   font-size:25px;
+  
+}
+li a, h1 {
+    display: block;
+    line-height: 2em;
+    padding: 0 1em;
+    color: #00ccff;
+    text-decoration: none;
+
+}
+li a:hover {
+    background: #00ff99;
+    position: relative;
+    border-radius: .3em .3em 0 0;
+    
+}
+
+
 
 /* changing words css*/
 .rw-wrapper{
@@ -150,6 +157,8 @@ top:.5em;
 	color: orange;
 }
 
+
+
 @keyframes rotateWordsSecond {
     0% { opacity: 1; animation-timing-function: ease-in; width: 0px; }
     10% { opacity: 0.3; width: 0px; }
@@ -204,6 +213,13 @@ margin-bottom:0
  padding:5px;
 }
 
+img{
+Width:150px;
+height:150px;
+padding:5px;
+float:left; 
+}
+
 .ball{
  position:absolute; top: 245px; left: 25px; z-index: 1;
 }
@@ -228,4 +244,8 @@ margin:10px 5px;
  float: left;
  margin-left: 205px;
  padding-right:25%;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> master
