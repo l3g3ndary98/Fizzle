@@ -1,0 +1,84 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="style.css">
+<title>PSA</title>
+</head>
+<body>
+
+<nav class="cf">
+<img class="logo" src="logopsd.jpg">
+<h1>Youth Exercise</h1>
+
+<ul>
+
+    <li><a href="#">Contact</a></li>
+    <li><a href="#" >Learn More</a></li>
+    <li><a href="#">Get Moving </a></li>
+    <li><a href="#">Home</a></li>
+    
+</ul>
+
+ 
+
+</nav>
+
+<section class="rw-wrapper">
+	<h2 class="rw-sentence">
+		<span>How </span>
+		<span>will you</span>
+		
+		<br />
+		<span>Exercise today?</span>
+		<div class="rw-words rw-words-2">
+			<span> Playing Basketball</span>
+			<span> Going for a Run</span>
+			<span> Taking a Swim</span>
+			<span> Playing Tennis</span>
+			<span> Flying a Kite</span>
+			<span> Riding a Bike</span>
+		</div>
+	</h2>
+</section>
+<iframe class="video" width="600" height="315" src="https://www.youtube.com/embed/qgA_ge0Dpng?rel=0" frameborder="0" allowfullscreen></iframe>
+<div class="main">
+<img class="ball" src="UnKnown-2.jpeg" alt="Sports">
+<img class="jobs" src="Unknown.png" alt="sports">
+
+<h2>About</h2>
+<p>I will be out all this week! M-W I will be in a conference. I should be on Slack all-day if you have an issue. Make sure to send the sub a message when you go to the restroom, etc. Thursday and Friday, I will be traveling so can’t guarantee that I will respond quickly! Also the last sub report had several students names left on there for not working being on youtube, etc. Kudos to Dillon and Brittany, you were left as hard workers! If your name is on this report again, you will lose 5 points on your professionalism grade.
+
+I am working on grades and some of you have them posted already….I will be working on them when I can but might be the week I return before they are completely finished. I will post on the Scoop when they are done!
+
+November December Professionalism SkillsNovember/December Monthly Professionalism Blog is about Compassion and how that relates to the field of Web Design and Development.
+
+November’s Creative Challenge is to create a 3D turkey! The turkey has to have dimension! Can’t be flat!</p>
+</div>
+
+
+<div class="more">
+<h2>More</h2>
+<p>I will be out all this week! M-W I will be in a conference. I should be on Slack all-day if you have an issue. Make sure to send the sub a message when you go to the restroom, etc. Thursday and Friday, I will be traveling so can’t guarantee that I will respond quickly! Also the last sub report had several students names left on there for not working being on youtube, etc. Kudos to Dillon and Brittany, you were left as hard workers! If your name is on this report again, you will lose 5 points on your professionalism grade.</p>
+</div>
+
+<div class="tb">
+<p>text box text box text box text box text box text box text box v text boxvvtext boxvtext boxvvvvtext boxtext boxtext boxtext boxtext box</p>
+</div>
+
+<div class="tbb">
+<p>text box text box text box text box text box text box text box v text boxvvtext boxvtext boxvvvvtext boxtext boxtext boxtext boxtext box</p>
+</div>
+
+
+
+<footer class="foot">
+Address
+Phone Number 
+Facebook
+Twitter
+Youtube
+
+</footer>
+</body>
+</html>
