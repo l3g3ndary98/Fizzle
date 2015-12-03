@@ -1,0 +1,331 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>PSA</title>
+<style>
+html {
+    background: #00ffff;
+}
+body {
+    margin: 0;
+    
+}
+
+nav {
+    background: #66ff33;
+    height: 10em;
+    overflow:hidden;
+
+   
+}
+
+.logo{
+
+width:150px;
+height:125px;
+position: absolute;
+left:1em;
+top:.5em;
+}
+
+h1 {
+font: 40px;
+  animation-duration: 3s;
+  animation-name: slidein;
+ 
+  
+  
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 100%; 
+ 
+  }
+
+  to {
+    margin-left: 12%;
+    width: 100%;
+
+  }
+}
+
+ul, li, h1 {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    float: left;
+    
+    
+  
+   
+}
+
+h1{
+margin-left:12%;
+font-size:40px;
+}
+
+
+ul, h1 {
+    background: #66ff33;
+    height: 1.5em;
+    width: 100%;
+   
+
+}
+li {
+    float:right;
+    margin-right:3%;
+   font-size:25px;
+  
+}
+li a, h1 {
+    display: block;
+    line-height: 2em;
+    padding: 0 1em;
+    color: #00ccff;
+    text-decoration: none;
+
+}
+li a:hover {
+    background: #00ff99;
+    position: relative;
+    border-radius: .3em .3em 0 0;
+    
+}
+
+
+
+/* changing words css*/
+.rw-wrapper{
+	width: 40%;
+	position: relative;
+	margin-left:2%;
+	font-family: 'Bree Serif';
+	
+}
+
+.rw-sentence{
+	margin: 0;
+	text-align: left;
+	text-shadow: 1px 1px 1px rgba(255,255,255,0.8);
+}
+
+.rw-sentence span{
+	color: #444;
+	white-space: nowrap;
+	font-size: 100%;
+	font-weight: normal;
+}
+
+.rw-words{
+	display: inline;
+	
+}
+
+.rw-words span{
+	position: absolute;
+	opacity: 0;
+	overflow: hidden;
+	width: 1%;
+	color: yellow;
+}
+
+
+.rw-words-2 span{
+	animation: rotateWordsSecond 18s linear infinite 0s;
+}
+.rw-words span:nth-child(2) { 
+	animation-delay: 3s; 
+	color: red;
+
+}
+.rw-words span:nth-child(3) { 
+	animation-delay: 6s; 
+	color: blue;	
+}
+.rw-words span:nth-child(4) { 
+	animation-delay: 9s; 
+	color: green;
+}
+.rw-words span:nth-child(5) { 
+	animation-delay: 12s; 
+	color: gold;
+}
+.rw-words span:nth-child(6) {  
+	animation-delay: 15s; 
+	color: orange;
+}
+
+
+
+@keyframes rotateWordsSecond {
+    0% { opacity: 1; animation-timing-function: ease-in; width: 0px; }
+    10% { opacity: 0.3; width: 0px; }
+	20% { opacity: 1; width: 100%; }
+    27% { opacity: 0; width: 100%; }
+    100% { opacity: 0; }
+}
+
+.main h2, .more h2{
+Color:#009999;
+Font-size:30px;
+margin-left:205px;
+margin-bottom:0
+}
+
+.main p{
+ width: 55%;
+ float: left;
+ margin-left: 205px;
+
+}
+
+.more{
+ width: 65%;
+ float: left;
+ margin-left: 15px;
+ margin-bottom:25px;
+}
+
+.more p{
+ width: 65%;
+ float: left;
+ margin-left: 185px;
+ 
+}
+
+.tb{
+ width: 20%;
+
+ float: left;
+ margin-left: 185px;
+ background:green;
+ padding:5px;
+}
+
+.tbb{
+ width: 20%;
+ height:20%;
+ float: left;
+ margin-left: 185px;
+ background:red;
+ padding:5px;
+}
+
+img{
+Width:150px;
+height:150px;
+padding:5px;
+float:left; 
+}
+
+.ball{
+ position:absolute; top: 245px; left: 25px; z-index: 1;
+}
+
+.jobs{
+position:absolute; top: 435px; left: 25px; z-index: 3;
+}
+
+
+.foot{
+Width:100%;
+height:5em;
+float:left; 
+margin-top:50%;
+background: #66ff33;
+color:#00ccff;
+
+}
+
+.video{
+margin:10px 5px;
+ float: left;
+ margin-left: 205px;
+ padding-right:25%;
+}
+
+
+</style>
+</head>
+<body>
+
+<nav class="cf">
+<img class="logo" src="logopsd.tif">
+<h1>Youth Exercise</h1>
+
+<ul>
+
+    <li><a href="#">Contact</a></li>
+    <li><a href="#" >Learn More</a></li>
+    <li><a href="#">Get Moving </a></li>
+    <li><a href="#">Home</a></li>
+    
+</ul>
+
+ 
+
+</nav>
+
+<section class="rw-wrapper">
+	<h2 class="rw-sentence">
+		<span>How </span>
+		<span>will you</span>
+		
+		<br />
+		<span>Exercise today?</span>
+		<div class="rw-words rw-words-2">
+			<span> Playing Basketball</span>
+			<span> Going for a Run</span>
+			<span> Taking a Swim</span>
+			<span> Playing Tennis</span>
+			<span> Flying a Kite</span>
+			<span> Riding a Bike</span>
+		</div>
+	</h2>
+</section>
+<iframe class="video" width="600" height="315" src="https://www.youtube.com/embed/qgA_ge0Dpng?rel=0" frameborder="0" allowfullscreen></iframe>
+<div class="main">
+<img class="ball" src="UnKnown-2.jpeg" alt="Sports">
+<img class="jobs" src="Unknown.png" alt="sports">
+
+<h2>About</h2>
+<p>I will be out all this week! M-W I will be in a conference. I should be on Slack all-day if you have an issue. Make sure to send the sub a message when you go to the restroom, etc. Thursday and Friday, I will be traveling so can’t guarantee that I will respond quickly! Also the last sub report had several students names left on there for not working being on youtube, etc. Kudos to Dillon and Brittany, you were left as hard workers! If your name is on this report again, you will lose 5 points on your professionalism grade.
+
+I am working on grades and some of you have them posted already….I will be working on them when I can but might be the week I return before they are completely finished. I will post on the Scoop when they are done!
+
+November December Professionalism SkillsNovember/December Monthly Professionalism Blog is about Compassion and how that relates to the field of Web Design and Development.
+
+November’s Creative Challenge is to create a 3D turkey! The turkey has to have dimension! Can’t be flat!</p>
+</div>
+
+
+<div class="more">
+<h2>More</h2>
+<p>I will be out all this week! M-W I will be in a conference. I should be on Slack all-day if you have an issue. Make sure to send the sub a message when you go to the restroom, etc. Thursday and Friday, I will be traveling so can’t guarantee that I will respond quickly! Also the last sub report had several students names left on there for not working being on youtube, etc. Kudos to Dillon and Brittany, you were left as hard workers! If your name is on this report again, you will lose 5 points on your professionalism grade.</p>
+</div>
+
+<div class="tb">
+<p>text box text box text box text box text box text box text box v text boxvvtext boxvtext boxvvvvtext boxtext boxtext boxtext boxtext box</p>
+</div>
+
+<div class="tbb">
+<p>text box text box text box text box text box text box text box v text boxvvtext boxvtext boxvvvvtext boxtext boxtext boxtext boxtext box</p>
+</div>
+
+
+
+<footer class="foot">
+Address
+Phone Number 
+Facebook
+Twitter
+Youtube
+
+</footer>
+</body>
+</html>
