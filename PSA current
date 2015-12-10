@@ -41,7 +41,7 @@
 		</div>
 	</h2>
 </section>
-<iframe class="video" width="600" height="315" src="https://www.youtube.com/embed/qgA_ge0Dpng?rel=0" frameborder="0" allowfullscreen></iframe>
+<iframe class="video" width="55%" height="555" src="https://www.youtube.com/embed/qgA_ge0Dpng?rel=0" frameborder="0" allowfullscreen></iframe>
 <div class="main">
 <img class="ball" src="UnKnown-2.jpeg" alt="Sports">
 <img class="jobs" src="Unknown.png" alt="sports">
@@ -76,7 +76,7 @@ November’s Creative Challenge is to create a 3D turkey! The turkey has to have
 <ul>
 <li class="footer">Address</li>
 <li class="footer">Phone Number </li>
-<li class="footer">E-Mail</li>
+<li class="footer">E-Mail </li>
 <li class="footer">Facebook</li>
 <li class="footer">Twitter</li>
 <li class="footer">Youtube</li>
