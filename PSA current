@@ -73,12 +73,14 @@ November’s Creative Challenge is to create a 3D turkey! The turkey has to have
 
 
 <footer class="foot">
-Address
-Phone Number 
-Facebook
-Twitter
-Youtube
-
+<ul>
+<li class="footer">Address</li>
+<li class="footer">Phone Number </li>
+<li class="footer">E-Mail</li>
+<li class="footer">Facebook</li>
+<li class="footer">Twitter</li>
+<li class="footer">Youtube</li>
+</ul>
 </footer>
 </body>
 </html>
